@@ -50,7 +50,7 @@ exports.register = async (req, res) => {
     console.log(newUser);
     return res.status(200).json({
       success: true,
-      message: "SignUp Successfull Please Verify Your Email",
+      message: "🎉 SignUp Successful! 📨 Please Verify Your Email",
     });
   } catch (error) {
     console.log(error);

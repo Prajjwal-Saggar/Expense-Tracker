@@ -29,12 +29,16 @@ const Landing = () => {
           </p>
 
           <div className="flex  space-x-4">
-            <button className="bg-blue-500 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-600 transition-all">
-              Login
-            </button>
-            <button className="bg-blue-500 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-600 transition-all">
-              Sign Up
-            </button>
+            <Link to='/Login'>
+              <button className="bg-blue-500 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-600 transition-all">
+                Login
+              </button>
+            </Link>
+            <Link to='/SignUp'>
+              <button className="bg-blue-500 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-600 transition-all">
+                Sign Up
+              </button>
+            </Link>
           </div>
         </div>
         <div className="hidden md:w-1/2 md:h-screen md:flex md:justify-center md:items-center">
