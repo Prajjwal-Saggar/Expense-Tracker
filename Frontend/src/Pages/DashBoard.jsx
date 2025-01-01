@@ -16,8 +16,12 @@ const Dashboard = () => {
       </nav>
 
       {/* Background Content */}
-      <div className="flex-grow flex items-center justify-center">
-        
+      <div className="w-full h-screen flex flex-col ">
+       <div className="w-full h-[20%]  text-3xl flex items-center pl-4 text-white">
+         Welcome to your Expense Tracker&nbsp;<span className="font-airstrike pr-2 tracking-wide">Prajjwal Saggar!</span>
+       </div>
+       <div className="w-full h-[25%] bg-yellow-500"></div>
+       <div className="w-full h-[55%] bg-green-500"></div>
       </div>
     </div>
   );
